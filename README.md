@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
+  <title>Biometric Attendance System – Spring Boot & TCP Socket</title>
 </head>
 <body>
 
   <h1>Biometric Attendance System using Spring Boot & TCP Socket</h1>
 
-  <h2>1. Project Structure</h2>
+  <h2>1. Project Overview</h2>
+  <p>
+    This project is a <strong>real-time Biometric Attendance System</strong> built with Java Spring Boot, MySQL, and raw TCP socket communication.
+    It simulates biometric scan data using <code>Netcat (ncat)</code> and automatically stores it in the database.
+  </p>
+  <p>
+    Manual attendance entry is eliminated, reducing human error and improving real-time tracking of employee attendance logs.
+  </p>
+
+  <h2>2. Project Structure</h2>
   <pre>
 Attaindance_NetCat_rawTCP_Attaindance_NetCat/
 ├── src/
@@ -42,15 +51,6 @@ Attaindance_NetCat_rawTCP_Attaindance_NetCat/
 ├── mvnw / mvnw.cmd
 ├── target/   (ignored)
   </pre>
-
-  <h2>2. Project Overview</h2>
-  <p>
-    This project is a <strong>real-time Biometric Attendance System</strong> built with Java Spring Boot, MySQL, and raw TCP socket communication.
-    It simulates biometric scan data using <code>Netcat (ncat)</code> and automatically stores it in the database.
-  </p>
-  <p>
-    Manual attendance entry is eliminated, reducing human error and improving real-time tracking of employee attendance logs.
-  </p>
 
   <h2>3. Key Features</h2>
   <ul>
@@ -114,8 +114,7 @@ echo "Employee: 13245, Timestamp: 2024-12-14T10:15:30, Action: check-in, Device:
 
   <h2>7. Author</h2>
   <p>Developed by <strong>Komal Shendage</strong></p>
-      <a href="mailto:youremail@example.com">youremail@example.com</a>
-
+  <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
 
 </body>
 </html>
