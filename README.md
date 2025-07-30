@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Biometric Attendance System – Spring Boot & TCP Socket</title>
 </head>
 <body>
 
@@ -114,7 +113,7 @@ echo "Employee: 13245, Timestamp: 2024-12-14T10:15:30, Action: check-in, Device:
 
   <h2>7. Author</h2>
   <p>Developed by <strong>Komal Shendage</strong></p>
-  <p><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  <p><a href="mailto:shendagekomal11@gmail.com">shendagekomal11@gmail.com</a></p>
 
 </body>
 </html>
