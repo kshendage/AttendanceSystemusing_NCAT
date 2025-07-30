@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Biometric Attendance System – Spring Boot + TCP Socket</title>
+
 </head>
 <body>
 
